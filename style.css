@@ -1,0 +1,52 @@
+.h2.warning {
+    background-color: yellow;
+}
+.card1 {
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #4984dd;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.card2 {
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #d667cd;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.card3 {
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #c0c0c0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(100, 200, 1);
+}
+.tlacitko {
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.recenze {
+    border: 2px dashed #000;
+    padding: 10px;
+    margin: 10px 0;
+}
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
